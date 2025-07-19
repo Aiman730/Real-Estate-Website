@@ -1,0 +1,91 @@
+/* Favorites.css */
+
+.favorites-section {
+    padding: 40px;
+    background-image: url('../assets/Favorites/backgroundpic.jpeg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    position: relative; /* Position relative for possible absolute children */
+    min-height: 100vh; /* Full height */
+    color: rgb(252, 252, 252); /* Change text color for visibility */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+  }
+  
+  h2 {
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 2.5em; /* Title font size */
+    text-align: center; /* Center align title */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+  }
+  
+  .property-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the list */
+    max-width: 1200px; /* Maximum width */
+    margin: auto; /* Center the list */
+  }
+  
+  .property-card {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Ensure child elements stay within bounds */
+    width: 300px; /* Fixed width for the card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover */
+    cursor: pointer; /* Pointer cursor for clickable cards */
+    }
+  
+  .property-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  }
+  
+  .property-image {
+    width: 100%; /* Make the image full width */
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Cover the area without distortion */
+  }
+  
+  .property-info {
+    padding: 20px; /* Padding around the info section */
+    text-align: center; /* Center the text */
+  }
+  
+  .property-details {
+    display: flex; /* Flexbox for details */
+    justify-content: space-between; /* Space between icons */
+    padding: 10px 20px; /* Padding for details section */
+    
+  }
+  
+  .property-icon {
+    display: flex; /* Flexbox for icon and text */
+    align-items: center; /* Center align items */
+     
+  }
+  
+  .property-icon img {
+    width: 20px; /* Fixed width for icons */
+    margin-right: 5px; /* Space between icon and text */
+    background-color: transparent;
+    
+    
+  }
+  
+  .favorite-icon {
+    display: flex; /* Flexbox for favorite icon */
+    justify-content: center; /* Center the favorite icon */
+    margin-top: 10px; /* Space above the favorite icon */
+    background-color: black;
+  }
+  
+  .favorite-icon img {
+    width: 25px; /* Fixed width for favorite icon */
+    
+    
+    
+  }
