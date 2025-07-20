@@ -1,4 +1,4 @@
-👉 Real Estate Web Application
+## Real Estate Web Application
 
 A full-stack, responsive Real Estate platform for browsing, listing, and managing properties. Built using React.js on the frontend and Node.js, Express, and MongoDB on the backend, this project delivers an intuitive user experience with scalable backend architecture.
 
